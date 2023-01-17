@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.main{
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+    color: white;
+}
+
+#key{
+    font-size: 120%;
+    border-radius: 0px;
+    border-style: solid;
+}
+
+button{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 120%;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+table{
+    /* width: 100%; */
+    /* border-collapse: collapse; */
+    color: white;
+    width: 100%;
+    padding-right: 15px;
+}
+
+.td{
+    display: flex;
+    /* justify-content: space-between; */
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-collapse:collapse;
+}
+
+.emoji{
+    width: 10%;
+    font-size: 300%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.ealiases{
+    text-transform: capitalize;
+    font-size: 125%;
+    width: 50%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.edescription{
+    text-transform: capitalize;
+    font-size: 125%;   
+    width: 45%; 
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}

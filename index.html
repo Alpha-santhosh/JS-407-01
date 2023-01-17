@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance-JS-407-01</title>    
+    <link rel="stylesheet" href="style.css">
+    <script defer src="data.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h1>Emojee - Emoji 🔍 Application</h1>
+        <br>
+        <hr>
+        <br>
+        <form action="">
+            <input type="text" placeholder="Emojee Search" id="key" onkeyup="searchkey()">
+            <button type="button" onclick="search()">Search</button>
+        </form>
+        <br>
+        <br>
+        <div id="container">
+            <table>
+                <td>
+                    <tr id="emoji"></tr>
+                    <tr id="tags"></tr>
+                    <tr id="description"></tr>
+                </td>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
